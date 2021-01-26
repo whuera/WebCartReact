@@ -5,4 +5,6 @@ Taller práctico de integración de Front (React) con BackEnd / sparkJava (micro
 |------|------------|
 | Backend (https://github.com/whuera/spark-microservices) | sparkJava |
 | Frontend | React |
+| UPP | Simulador |
+| Bancs | Simjulador |
 | | 
