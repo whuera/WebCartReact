@@ -9,10 +9,6 @@ export class UserService{
              .then(resultado => resultado )
              .then(resultado => console.log('Api: ',resultado.data) )
          )
-           //const url = "http://192.168.100.67:8080/users"     
-     //fetch(url)
-     //.then(respuesta => respuesta.json())
-     //.then(resultado => console.log(resultado))
      }
 }
 export default UserService;
