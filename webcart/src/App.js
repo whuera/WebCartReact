@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container mt-5">
+        <div className="container-md mt-5">
           <div className="btn-group">
             <Link to="/" className="btn btn-dark">
               Inicio
@@ -55,7 +55,7 @@ class App extends Component {
               <Nosotros />
             </Route>
             <Route path="/" exact>
-            <div className="app container">
+              <div className="app container">
                 <div className="jumbotron">
                   <p className="lead text-center">Buscador de imagenes</p>
                   <Buscador datosBusqueda={this.datosBusqueda} />
@@ -63,7 +63,7 @@ class App extends Component {
                 <Resultado users={this.state.users} />
               </div>
             </Route>
-          </Switch>
+          </Switch>       
         </div>
       </Router>
     );
