@@ -10,7 +10,9 @@ const User = (props) =>{
                 <h5 className="card-title">Nombres: {props.firstName}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Apellidos: {props.lastName}</h6>
                 <p class="card-text">Correo: {props.email}</p>
-                <p class="card-text">Edad: {props.userBasicData.age}</p>
+                    <p className="card-text">Id Documento: {props.documentId}</p>
+
+                {/* <p class="card-text">Edad: {props.userBasicData.age}</p> */}
                 </div>
             </div>
         </div>

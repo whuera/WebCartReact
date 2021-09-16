@@ -14,9 +14,10 @@ class Resultado extends Component {
                         key={user.id}
                         firstName={user.firstName}
                         lastName={user.lastName}
-                        email={user.email.value}
-                        userBasicData={user.userBasicData}
-                        imageUrl={user.imageUrl.value}
+                        email={user.email}
+                        documentId = {user.documentId}
+                       // userBasicData={user.userBasicData}
+                       // imageUrl={user.imageUrl.value}
                         />
                     ) ) }
                 </div>
